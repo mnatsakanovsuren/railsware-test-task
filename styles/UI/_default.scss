@@ -52,8 +52,13 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #1A4F8B;
+  color: #1a4f8b;
   text-decoration: none;
+  transition: 0.25s ease-in;
+
+  &:hover {
+    color: lighten(#1a4f8b, 20%);
+  }
 }
 
 .title {

@@ -14,8 +14,18 @@
   background: #1a4f8b;
   border: none;
   border-radius: 8px;
+  transition: 0.25s ease-in;
+  cursor: pointer;
+
+  &:hover {
+    background: lighten(#1a4f8b, 20%);
+  }
 
   &--secondary {
     background: #f14436;
+
+    &:hover {
+      background: lighten(#f14436, 10%);
+    }
   }
 }

@@ -14,9 +14,17 @@
   background: #1a4f8b;
   border: none;
   border-radius: 8px;
+  transition: 0.25s ease-in;
+  cursor: pointer;
+}
+.button:hover {
+  background: #3280d9;
 }
 .button--secondary {
   background: #f14436;
+}
+.button--secondary:hover {
+  background: #f47066;
 }
 
 .form {
@@ -107,8 +115,12 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  color: #1A4F8B;
+  color: #1a4f8b;
   text-decoration: none;
+  transition: 0.25s ease-in;
+}
+.link:hover {
+  color: #3280d9;
 }
 
 .title {
