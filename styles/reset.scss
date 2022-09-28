@@ -1,0 +1,15 @@
+@import "./UI/button";
+@import "./UI/form";
+@import "./UI/default";
+@import "./UI/typical-page";
+
+.reset {
+  &__footer {
+    display: block;
+    margin-top: 200px;
+
+    .link {
+      display: inline;
+    }
+  }
+}

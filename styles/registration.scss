@@ -1,0 +1,12 @@
+@import "./UI/button";
+@import "./UI/form";
+@import "./UI/default";
+@import "./UI/typical-page";
+
+.registration {
+  &__form {
+    &__button-submit {
+      margin: 50px 0;
+    }
+  }
+}
